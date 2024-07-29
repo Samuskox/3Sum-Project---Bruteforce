@@ -26,8 +26,6 @@ int main()
         scanf("%d", &A[i]);
     }
 
-    /*TO DO: Conforme forem implementando, removam os coment�rios */
-
     ImprimeArray(A, "Array Infor.   []", n);
     treeSumForcaBruta(A, n);
     treeSumMelhorado(A, n);
